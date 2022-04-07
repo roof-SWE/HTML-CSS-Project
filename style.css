@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('background-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: cover;
+    margin: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+img {
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    float: left; /*warb text around the img in the first section */
+    /* border: 10px solid #ffffff;  */
+}
+
+.section1{
+    padding-top: 30px;
+}
+.paragraph{
+    margin: 20px;
+}
+hr{
+    margin: 20px;
+    width: 150px;
+    margin: auto;
+    border: dotted 5px;
+    border-bottom: none;
+    color: #808080;
+}
+table, th, td{
+    border: 2px solid;
+    border-color: #808080;
+    width: 100%; 
+    table-layout: fixed;
+}
+ul {
+    padding: 40px;
+}
+button{
+    background-color: #ff4741;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+/* contact me page */
+.container {
+    margin-top: 50px;
+    padding: 200px;
+    border-radius: 5px;
+    text-align: center;
+  }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
